@@ -1,0 +1,29 @@
+#main .kader-widget .table-footer {
+  text-align: right;
+  padding: 4px 2px 3px 6px;
+  margin: 2px;
+  border: 0;
+  background-color: #f2f2f2;
+  width: auto; }
+  #main .kader-widget .table-footer a {
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: none; }
+    #main .kader-widget .table-footer a::after {
+      content: '\00BB';
+      padding-left: 3px; }
+#main .dataHeader.nationalmannschaft.wm18 .dataMain {
+  background-color: #1a3151;
+  background-image: url("https://tmsi.akamaized.net/wettbewerb/WM18/genetic_blu.jpg");
+  background-size: 100%; }
+  #main .dataHeader.nationalmannschaft.wm18 .dataMain .dataTop {
+    background: none; }
+    #main .dataHeader.nationalmannschaft.wm18 .dataMain .dataTop .dataName h1[itemprop='name'] b {
+      color: #fff; }
+
+/*# sourceMappingURL=verein.css.map */

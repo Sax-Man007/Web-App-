@@ -1,0 +1,335 @@
+.single #mvp-content-main .nc_socialPanel {
+	display:none;
+}
+
+/* span.mvp-nav-search-but {
+display:none;	
+} */
+
+.mvp-fixed span.mvp-nav-search-but {
+float:none;
+	padding:5px 10px;
+	color:#fff;
+	display:inline-block;
+}
+
+.flyout-search #searchform input {
+	    width: 83%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+	border:1px solid #89B14D;
+	height:30px;
+	font-size:30px;
+	padding:5px 10px;
+}
+
+nav.mvp-fly-nav-menu {
+	top:58px;	
+}
+
+.mvp-nav-top-mid {
+	z-index:9;
+}
+
+.mvp-post-soc-in {
+    margin-left: 0;
+}
+
+h1.mvp-post-title {
+	width:100%;
+}
+
+.mvp-nav-top-left {
+	width:300px;
+	z-index:10;
+}
+
+.mvp-nav-top-right {
+	width:321px;
+	text-align:right;
+}
+
+.mvp-nav-top-right .mc4wp-form label, .mvp-nav-top-right .mc4wp-form input {
+	display:inline-block;
+	width:auto;
+}
+
+.mvp-nav-top-right .mc4wp-form input[type=email] {
+max-width:50%;	
+}
+
+.mvp-nav-top-right .mc4wp-form label {
+	color:white;
+}
+
+.mvp-nav-small .mc4wp-form {
+	margin:0!important;
+}
+
+.mvp-nav-soc-wrap .fa-linkedin:hover {
+	background:#0077B5;
+}
+
+.fa-rss:hover {
+	background:#F0941A;
+}
+
+.mvp-feat5-side-list .mvp-feat1-list-img:after {
+	margin:8px 0 0;
+}
+
+#mvp-home-widget-wrap {
+	margin-bottom:0;
+}
+
+#mvp-feat5-wrap {
+	margin:0 0 30px;
+}
+
+#mvp-post-feat-img {
+	display:none;
+}
+
+.mobile-subscribe {
+	display:none;
+}
+
+#mvp-content-main blockquote p, .mvp-post-add-main blockquote p {
+	font-size:1.4rem;
+	margin:30px 5%;
+	font-style:italic;
+	color:#75B243;
+}
+
+.menu-invert a {
+    color: #ffffff!important;
+    background: #000000;
+    padding: 7px 12px 5px!important;
+    margin-bottom: 13px;
+}
+
+.menu-invert:hover a {
+	border-bottom:0px!important;	
+	background:#75B243;
+}
+
+.menu-invert ul.sub-menu {
+	background:#000000!important;
+	top:36px!important;	
+}
+
+.mvp-nav-menu ul li.menu-invert ul.sub-menu li a {
+background:#000000!important;	
+}
+
+.mvp-nav-menu ul li.menu-invert ul.sub-menu li a img {
+-webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+	 -webkit-transition: all .5s; 
+  transition: all .5s;
+}
+
+.mvp-nav-menu ul li.menu-invert ul.sub-menu li a:hover img {
+-webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+
+.mvp-nav-menu ul li.menu-invert a:after, .elementor-form br, .elementor-element br {
+	display:none!important;
+}
+
+.mvp-fly-soc-list span.mvp-nav-search-but {
+	color: white;
+    float: none;
+    padding: 5px;
+	display:inline-block;
+}
+
+#mvp-content-main ul li, #mvp-content-main ol li, .mvp-post-add-main ul li, .mvp-post-add-main ol li {
+    margin-left: 30px;
+}
+
+#mvp-content-main blockquote p, .mvp-post-add-main blockquote p {
+    font-size: 1.5em;
+}
+
+#mvp-feat6-wrap {
+	max-width:100%!important;
+	}
+
+.mc4wp-form input[type="submit"], .mc4wp-form button {
+	background-color: #75b33b!important;
+    border-color: #619f27!important;
+	    border-radius: 2px!important;
+}
+
+@media screen and (max-width:1169px) {
+	
+	#mvp-main-nav-bot, .mvp-nav-soc-wrap, .mvp-nav-logo-reg, #mc4wp-form-1 {
+	display:none;	
+	}
+
+#mvp-main-nav-top, .mvp-nav-top-wrap, .mvp-nav-top-mid {
+height:30px!important;	
+}
+
+.mvp-nav-top-mid img {
+height:100%!important;	
+}
+
+.mvp-nav-logo-small, .mvp-nav-top-left .mvp-fly-but-wrap {
+display:inline;	
+}
+
+.mvp-nav-top-left .mvp-fly-but-wrap span {
+background:#ffffff;	
+}
+
+.mobile-subscribe {
+		display:block!important;
+		padding-top:2%;
+	}
+
+	.mobile-subscribe a {
+		color:#ffffff;
+	font-weight:normal;
+	}
+
+.mobile-subscribe a:hover {
+color:#75B243;	
+}
+	
+	}
+
+@media screen and (min-width:1004px) and (max-width:1099px) {
+	
+	#mvp-feat6-wrap {
+		max-width:100%!important;
+		}
+	
+	}
+
+@media screen and (min-width:1003px) {
+	
+	.left span.mvp-nav-search-but {
+		display:none;
+	}
+
+	.mvp-fixed span.mvp-nav-search-but, .mvp-nav-bot-right span.mvp-nav-search-but {
+		display:inline-block;
+	}
+	
+}
+
+@media screen and (max-width:1003px) {
+
+	#mvp-main-nav-small .mvp-fly-but-wrap span, #mvp-main-nav-small .mvp-search-but-wrap span, .mvp-nav-top-left .mvp-fly-but-wrap span, #mvp-fly-wrap .mvp-fly-but-wrap span {
+	background:#ffffff;	
+	}
+
+.mvp-nav-top-left {
+width:auto;
+}
+	
+}
+
+@media screen and (max-width:967px) {
+	
+	.mvp-nav-top-right .mc4wp-form {
+		display:none!important;	
+	}
+
+}
+
+@media screen and (min-width:768px) and (max-width:899px) {
+	
+#mvp-feat6-wrap {
+		max-width:100%!important;
+		}
+	
+}
+
+@media screen and (max-width: 599px) and (min-width: 480px) {
+
+	.mvp-nav-top-right .mvp-nav-search-but {
+		display:none!important;
+	}
+	
+}
+
+@media screen and (max-width:479px) {
+
+	#mvp-feat6-wrap {
+	max-width:100%!important;	
+	}
+
+	.mvp-reg-img {
+		display:block!important;
+	}
+
+.mvp-mob-img {
+	display:none!important;
+}
+}
+
+.jdbutton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 17px 50px;
+    border: 0px solid #240d54;
+    border-radius: 67px;
+    background: #280e5d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#280e5d), to(#240d54));
+    background: -moz-linear-gradient(top, #280e5d, #240d54);
+    background: linear-gradient(to bottom, #280e5d, #240d54);
+    text-shadow: #14072f 1px 1px 1px;
+    font: normal normal bold 28px trebuchet ms;
+    color: #ffffff;
+    text-decoration: none;
+}
+.jdbutton:hover,
+.jdbutton:focus {
+    border: 0px solid #280e5d;
+    background: #301170;
+    background: -webkit-gradient(linear, left top, left bottom, from(#301170), to(#2b1065));
+    background: -moz-linear-gradient(top, #301170, #2b1065);
+    background: linear-gradient(to bottom, #301170, #2b1065);
+    color: #ffffff;
+    text-decoration: none;
+}
+.jdbutton:active {
+    background: #180838;
+    background: -webkit-gradient(linear, left top, left bottom, from(#180838), to(#240d54));
+    background: -moz-linear-gradient(top, #180838, #240d54);
+    background: linear-gradient(to bottom, #180838, #240d54);
+}
+
+table.greentable {
+  border: 1px solid #89B14D;
+  background-color: #f5f5f5;
+  width: 720px;
+  text-align: center;
+}
+table.greentable td, table.greentable th {
+  border: 3px solid #89B14D;
+  padding: 15px 0px;
+}
+table.greentable tbody td {
+  font-size: 13px;
+}
+table.greentable tfoot td {
+  font-size: 14px;
+}
+table.greentable tfoot .links {
+  text-align: right;
+}
+table.greentable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+

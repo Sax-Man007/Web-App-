@@ -1,0 +1,15 @@
+@charset "UTF-8";#ownomenu, #ownomenu ul{list-style:none;z-index:999;position:relative;}
+#ownomenu, #ownomenu *{padding:0;margin:0;}
+#ownomenu li.ownolink{width:108px;float:left;margin-left:-3px;border:1px #CCC solid;text-align:center;}
+#ownomenu li.ownolink a{display:block;padding:9px;text-decoration:none;}
+#ownomenu li.ownolink a:hover{color:#003399;background:#FFF;}
+#ownomenu li.ownolink ul{display:none;border-top:1px #CCC solid;text-align:left}
+#ownomenu li.ownolink:hover ul{display:block;width:198px;color:#FFF;background:#003399}
+#ownomenu li.ownolink ul li a{padding:5px;height:18px;text-decoration:none;}
+#ownomenu li.ownolink ul li a:hover{color:#003399;background:#FFF;z-index:auto}
+#ownomenu a{color:#FFF;font-weight:lighter;font-size:14px}
+#ownomenu ul li a:hover{text-decoration:none;color:#003399;background:#FFF}
+#ownomenu li.ownolink{background-color:#003399;}
+#ownomenu li.ownolink ul{padding-bottom:1px;}
+#ownoDiv1{position:absolute;width:99%;z-index:1000;margin-left:6px;margin-top:9px;}
+#wrap{width:860px;margin-right:auto;margin-left:auto}

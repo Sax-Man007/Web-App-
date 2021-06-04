@@ -1,0 +1,82 @@
+#andereSprache {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #00aded;
+    padding: 0;
+    line-height: 30px;
+    width: 100vw;
+    border-bottom: 1px solid #1a3151;
+}
+
+#andereSprache a {
+    color: #fff;
+    font-size: 14px;
+}
+
+#andereSprache a span {
+    color: #1a3151;
+}
+
+#andereSprache a:hover span {
+    text-decoration: underline;
+}
+
+#hierbleiben {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 500;
+    display: block;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#hierbleiben:before {
+    left: 8px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#hierbleiben:after {
+    right: 9px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#hierbleiben:before, #hierbleiben:after {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 3px;
+    top: 13px;
+    background: #fff;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+
+
+@media only screen and (min-width: 938px) {
+    #andereSprache {
+        padding-right: 170px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #andereSprache {
+        position: fixed;
+        top: 44px;
+        z-index: 500;
+        border-bottom: 0;
+        border-top: 1px solid #1a3151;
+        line-height: 18px;
+        padding: 5px 30px 5px 5px;
+    }
+
+}

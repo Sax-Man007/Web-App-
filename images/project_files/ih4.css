@@ -1,0 +1,87 @@
+.storefront-primary-navigation {
+    background: transparent;
+}
+
+.main-navigation, .secondary-navigation {
+    width: 70%;
+    float: right;
+    margin-top: -65px;
+}
+
+.main-navigation ul li a, ul.menu li a {
+    color: #2B2B2B;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    float: right !important;
+}
+
+.site-header .custom-logo-link {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.site-header .site-branding img {
+    height: 60px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+.main-navigation ul.nav-menu > li {
+    padding: 0;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.site-header .site-branding {
+    width: 30%;
+    margin-top: 6px;
+}
+
+.site-header .custom-logo-link {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main-navigation, .secondary-navigation {
+    width: 60%;
+    float: right;
+    margin-top: -47px;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    float: left !important;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+.main-navigation, .secondary-navigation {
+    width: 100%;
+    float: left;
+    margin-top: 12px;
+}
+
+.site-header .custom-logo-link img, .site-header 
+.site-logo-anchor img, 
+.site-header .site-logo-link img {
+    height: auto;
+}
+
+.site-header .site-branding {
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+}
+
+}

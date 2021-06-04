@@ -1,0 +1,41 @@
+ul#menu_new{margin:0 0 10px 0;padding:0;list-style-type:none;width:960px;display:block;height:39px;float:left;clear:both;}
+ul#menu_new li{display:block;float:left;margin:0;padding:0;}
+ul#menu_new li.home{ background:url(images/top-navi.png) 0px 0px no-repeat; height:29px; width:75px;}
+ul#menu_new li.home a:hover, ul#menu_new li.home_active{ background:url(images/top-navi.png) 0px 0px no-repeat; height:29px; width:75px;}
+
+ul#menu_new li.flight{ background:url(images/top-navi.png) -75px 0px no-repeat; height:29px; width:71px;}
+ul#menu_new li.flight a:hover, ul#menu_new li.flight_active{ background:url(images/top-navi.png) -75px 0px no-repeat; height:29px; width:71px;}
+
+ul#menu_new li.vacation{ background:url(images/top-navi.png) -146px 0px no-repeat; height:29px; width:88px;}
+ul#menu_new li.vacation a:hover, ul#menu_new li.vacation_active{ background:url(images/top-navi.png) -146px 0px no-repeat; height:39px; width:88px;}
+
+ul#menu_new li.hotels{ background:url(images/top-navi.png) -234px 0px no-repeat; height:29px; width:69px;}
+ul#menu_new li.hotels a:hover, ul#menu_new li.hotels_active{ background:url(images/top-navi.png) -234px 0px no-repeat; height:39px; width:69px;}
+
+ul#menu_new li.cars{ background:url(images/top-navi.png) -303px 0px no-repeat; height:29px; width:58px;}
+ul#menu_new li.cars a:hover, ul#menu_new li.cars_active{ background:url(images/top-navi.png) -303px 0px no-repeat; height:39px; width:58px;}
+
+ul#menu_new li.tours{ background:url(images/top-navi.png) -361px 0px no-repeat; height:29px; width:63px;}
+ul#menu_new li.tours a:hover, ul#menu_new li.tours_active{ background:url(images/top-navi.png) -361px 0px no-repeat; height:39px; width:63px;}
+
+ul#menu_new li.airlines{ background:url(images/top-navi.png) -424px 0px no-repeat; height:29px; width:74px;}
+ul#menu_new li.airlines a:hover, ul#menu_new li.airlines_active{ background:url(images/top-navi.png) -424px 0px no-repeat; height:39px; width:74px;}
+
+ul#menu_new li.top20{ background:url(images/top-navi.png) -498px 0px no-repeat; height:29px; width:128px;}
+ul#menu_new li.top20 a:hover, ul#menu_new li.top20_active{ background:url(images/top-navi.png) -498px 0px no-repeat; height:39px; width:128px;}
+
+ul#menu_new li.insurance{ background:url(images/top-navi.png) -626px 0px no-repeat; height:29px; width:90px;}
+ul#menu_new li.insurance a:hover, ul#menu_new li.insurance_active{ background:url(images/top-navi.png) -626px 0px no-repeat; height:39px; width:90px;}
+
+ul#menu_new li.destinition{ background:url(images/top-navi.png) -716px 0px no-repeat; height:29px; width:106px;}
+ul#menu_new li.destinition a:hover, ul#menu_new li.destinition_active{ background:url(images/top-navi.png) -716px 0px no-repeat; height:39px; width:106px;}
+
+ul#menu_new li.blog{ background:url(images/top-navi.png) -822px 0px no-repeat; height:29px; width:57px;}
+ul#menu_new li.blog a:hover, ul#menu_new li.blog_active{ background:url(images/top-navi.png) -822px -40px no-repeat; height:39px; width:57px;}
+
+ul#menu_new li.etickets{ background:url(images/top-navi.png) -879px 0px no-repeat; height:29px; width:81px;}
+ul#menu_new li.etickets a:hover, ul#menu_new li.etickets_active{ background:url(images/top-navi.png) -879px 0px no-repeat; height:39px; width:81px;}
+
+ul#menu_new li a{display:block;color:#fff;font:bold 12px/29px Arial, Helvetica, sans-serif;text-decoration:none;text-align:center;}
+
+.footer-logo{float: left;background: url(images/footer-logo.png) top left no-repeat;display: inline-block;height: 25px;margin: 0 148px 0 -10px !important;padding: 0;position: relative;width: 171px;border: none;}

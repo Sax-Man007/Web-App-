@@ -1,0 +1,2149 @@
+/* Korrektur Start */
+.in_aufstellung {
+	font-family: OSB;
+	/*font-size:30px; */
+	width: 40px;
+}
+
+.info_aufstellung_spieler {
+	padding: 2px 10px;
+	font-size: 20px;
+	font-family: OSL;
+}
+
+.info_aufstellung_spieler span {
+	width: 40px;
+	height: 20px;
+	line-height: 18px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.info_aufstellung_spieler span.bg_error {
+	color: #fff;
+	border: 1px solid #b80718;
+	background-color: #b80718;
+}
+
+/* Korrektur Ende */
+
+#bericht p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#bericht h3 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+#bericht h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#bericht h3, #bericht h4 {
+	font-family: OSL;
+}
+
+/*#bericht .content {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 1%, rgba(83,83,83,0) 60%, rgba(209,209,209,0.64) 100%, rgba(209,209,209,0.65) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(83,83,83,0) 60%,rgba(209,209,209,0.64) 100%,rgba(209,209,209,0.65) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 1%,rgba(83,83,83,0) 60%,rgba(209,209,209,0.64) 100%,rgba(209,209,209,0.65) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6d1d1d1',GradientType=0 );
+	height: 222px;
+
+}*/
+#bericht .content.aktiv {
+	position: relative;
+	display: block;
+	display: -webkit-box;
+	position: relative;
+	height: 229px;
+	display: block;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+#bericht .readmore {
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: none;
+}
+
+#bericht .readmore.aktiv {
+	background: linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -webkit-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -o-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -moz-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	height: 98px;
+	text-align: right;
+	display: block;
+}
+
+#bericht .readmore.aktiv span {
+	font-size: 12px;
+	color: #00aded;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	bottom: 9px;
+	position: absolute;
+	right: 8px;
+}
+
+span.header-konfi-ergebnis {
+	line-height: 40px;
+	height: 40px;
+	margin: 0 2px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+tr.live-konfi img {
+	vertical-align: middle;
+}
+
+.sb-spielbericht-head .table-header {
+	padding: 0;
+}
+
+.sb-spielbericht-head .table-header .header-social {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    float: none;
+}
+
+.table-header.table-header-form {
+	padding-bottom: 0;
+}
+
+.sb-spielbericht-head .icons-profil {
+	float: left;
+}
+
+.sb-spielbericht-head .icons-profil .wappen {
+	border-left: 0;
+	border-right: 1px solid #e4e4e4;
+}
+
+.sb-spielbericht-head .footer td {
+	width: 10%;
+	float: left;
+	border: 1px solid #e4e4e4;
+	border-width: 1px 1px 1px 0;
+	margin-bottom: -1px;
+	box-sizing: border-box;
+	min-height: 40px;
+	padding: 0px;
+}
+
+.sb-team, .sb-spieldaten {
+	float: left;
+	min-height: 140px;
+	position: relative;
+}
+
+.sb-team {
+	width: 30%;
+}
+
+.sb-team img {
+	position: absolute;
+	top: 5px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.sb-team.sb-heim img {
+	left: 5px;
+}
+
+.sb-team.sb-gast img {
+	right: 5px;
+}
+
+.sb-team a.sb-vereinslink {
+	font-size: 30px;
+	line-height: 32px;
+	display: block;
+	margin-top: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 66px;
+	font-family: OSB;
+}
+
+.sb-team.sb-heim a.sb-vereinslink, .sb-team.sb-heim p {
+	margin-left: 120px;
+	margin-right: 5px;
+}
+
+.sb-team.sb-gast a.sb-vereinslink, .sb-team.sb-gast p {
+	margin-right: 120px;
+	margin-left: 5px;
+	text-align: right;
+}
+
+.sb-team p {
+	font-size: 15px;
+	line-height: 17px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: OSB;
+	font-weight: bold;
+}
+
+.sb-team.sb-gast p {
+	float: right;
+}
+
+.sb-spieldaten {
+	width: 40%;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+}
+
+.sb-spieldaten div {
+	position: relative;
+	width: 100%;
+	height: 54px;
+}
+
+.sb-spieldaten p, .sb-spieldaten div.ergebnis-wrap {
+	text-align: center;
+	margin: 5px 0 5px 0;
+	line-height: 1;
+	overflow: hidden;
+}
+
+.sb-spieldaten div.sb-ergebnis {
+	position: relative;
+	left: 50%;
+	float: left;
+	width: auto;
+	font-family: OSB;
+}
+
+.sb-spieldaten div.sb-ergebnis div.sb-endstand {
+	font-size: 70px;
+	position: relative;
+	left: -50%;
+	float: left;
+	line-height: 48px;
+	width: auto;
+	letter-spacing: 0.1em;
+}
+
+.sb-spieldaten .sb-halbzeit {
+	bottom: 0;
+	left: 100%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: 25px;
+	font-weight: normal;
+	margin-left: 10%;
+	line-height: 25px;
+	letter-spacing: 0;
+	white-space: nowrap;
+}
+
+.sb-spieldaten .sb-halbzeit span {
+	letter-spacing: 0.1em;
+}
+
+.sb-spieldaten a {
+	font-weight: bold;
+}
+
+.sb-spieldaten .sb-zusatzinfos {
+	line-height: 1.2;
+	margin-top: -2px;
+}
+
+.sb-spielbericht-head.box .footer {
+	padding: 0;
+}
+
+.sb-spielbericht-head .footer tr {
+	background: none;
+}
+
+.sb-spielbericht-head .footer td {
+	text-align: center;
+	height: 34px;
+}
+
+.sb-spielbericht-head .footer td.sb-aktiv, .sb-spielbericht-head .footer td:hover {
+	background-color: #e4e4e4;
+}
+
+.sb-spielbericht-head #sb-begegnungsliste.footer.sb-begegnungsliste-lang td {
+	width: 10%;
+	float: left;
+	border: 1px solid #e4e4e4;
+	border-width: 1px 1px 1px 0;
+	margin-bottom: -1px;
+	box-sizing: border-box;
+}
+
+.sb-spielbericht-head .table-header .watchlistButtonClass {
+	width: 45px;
+	margin-top: 3px;
+}
+.sbk-wettbewerb .watchlistButtonClass {
+	position: absolute;
+	width: 40px;
+	top: 30px;
+	left: 220px;
+}
+
+.sb-zeitleiste-vereine {
+	border-right: 1px solid #e4e4e4;
+	width: 51px;
+	float: left;
+}
+
+.sb-zeitleiste-vereine a {
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+
+.sb-zeitleiste-vereine a:first-child {
+	border-bottom: 1px solid #e4e4e4;
+	height: 51px;
+}
+
+.sb-zeitleiste-vereine a img {
+	padding: 7px;
+}
+
+.sb-zeitleiste-ereignisse {
+	height: 101px;
+	margin-left: 86px;
+	margin-right: 35px;
+	position: relative;
+}
+
+.sb-leiste-heim {
+	top: 35px;
+	left: 0;
+	right: 0;
+	background-color: #1d75a3;
+	height: 14px;
+	position: absolute;
+}
+
+.sb-leiste-gast {
+	top: 52px;
+	left: 0;
+	right: 0;
+	background-color: #749f18;
+	height: 14px;
+	position: absolute;
+}
+
+.sb-leiste-ereignis {
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	width: 28px;
+	height: 33px;
+	background-image: url(https://tmssl.akamaized.net/images/spielbericht/sb-sprite.png);
+	background-repeat: no-repeat;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.daten-fakten th {
+	padding: 4px 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.sb-leiste-heim .sb-leiste-ereignis {
+		background-position: 0 -80px;
+		bottom: 0 !important;
+		top: -15px !important;
+		margin-left: -14px;
+	}
+
+	.sb-leiste-heim .sb-leiste-ereignis.sb-leiste-abstand {
+		top: -35px !important;
+	}
+
+	.sb-leiste-gast .sb-leiste-ereignis {
+		background-position: -28px -80px;
+		top: 0 !important;
+		padding-top: 5px;
+		margin-left: -14px;
+	}
+
+	.sb-leiste-gast .sb-leiste-ereignis.sb-leiste-abstand {
+		top: 20px !important;
+	}
+}
+
+.sb-leiste-ereignis span.sb-sprite {
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.sb-uhr-0, .sb-uhr-45, .sb-uhr-90, .sb-uhr-120, .sb-uhr-40, .sb-uhr-80, .sb-uhr-100 {
+	position: absolute;
+	z-index: 1;
+	top: 26px;
+}
+
+.sb-uhr-0 {
+	width: 50px;
+	height: 50px;
+	background-position: 0 -30px;
+	left: -25px;
+}
+
+.sb-uhr-45 {
+	width: 50px;
+	height: 50px;
+	background-position: -50px -30px;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.sb-uhr-40 {
+	width: 50px;
+	height: 50px;
+	background-position: -50px -117px;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.sb-120-minuten .sb-uhr-45 {
+	left: 37.5%;
+	margin-left: -25px;
+}
+
+.sb-100-minuten .sb-uhr-40 {
+	left: 40%;
+	margin-left: -25px;
+}
+
+.sb-uhr-90 {
+	width: 50px;
+	height: 50px;
+	background-position: -100px -30px;
+	right: -25px;
+}
+
+.sb-uhr-80 {
+	width: 50px;
+	height: 50px;
+	background-position: -100px -117px;
+	right: -25px;
+}
+
+.sb-120-minuten .sb-uhr-90 {
+	left: 75%;
+	right: auto;
+	margin-left: -25px;
+}
+
+.sb-100-minuten .sb-uhr-80 {
+	left: 80%;
+	right: auto;
+	margin-left: -25px;
+}
+
+.sb-uhr-120 {
+	width: 50px;
+	height: 50px;
+	background-position: -150px -30px;
+	right: -25px;
+}
+
+.sb-uhr-100 {
+	width: 50px;
+	height: 50px;
+	background-position: -150px -117px;
+	right: -25px;
+}
+
+/* MOBILE-PONE-DARSTELLUNG */
+@media only screen and (max-width: 767px) {
+	.sb-team {
+		text-align: center;
+	}
+
+	.sb-team img {
+		position: relative;
+		width: 70px;
+		height: 70px;
+		margin-top: 10px;
+		top: 0;
+	}
+
+	.sb-team.sb-heim img {
+		left: 0;
+	}
+
+	.sb-team.sb-gast img {
+		right: 0;
+	}
+
+	.sb-team.sb-heim a.sb-vereinslink, .sb-team.sb-gast a.sb-vereinslink {
+		font-size: 12px;
+		line-height: 15px;
+		font-weight: bold;
+		display: block;
+		margin: 5px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		text-align: center;
+		height: initial;
+		font-family: Source Sans Pro;
+	}
+
+	.sb-team p {
+		display: none;
+	}
+
+	.sb-spieldaten p {
+		margin-bottom: -2px;
+	}
+
+	.sb-spieldaten p.sb-zusatzinfos {
+		margin-top: 2px;
+	}
+
+	.sb-spieldaten div.ergebnis-wrap {
+		margin: 0;
+	}
+
+	.sb-spieldaten div.sb-ergebnis div.sb-endstand {
+		font-size: 42px;
+		line-height: 52px;
+		letter-spacing: 0;
+	}
+
+	.sb-spieldaten .sb-halbzeit {
+		font-size: 10px;
+		margin-left: 0;
+	}
+
+	.sb-spieldaten .sb-halbzeit span {
+		letter-spacing: 0;
+	}
+
+	.sb-zusatzinfos a {
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.sb-spielbericht-head .footer.sb-begegnungsliste-small-link {
+		height: 34px;
+	}
+
+	.sb-spielbericht-head #sb-begegnungsliste.footer td {
+		width: 33.3333333333%;
+		float: left;
+		border: 1px solid #e4e4e4;
+		border-width: 1px 1px 1px 0;
+		margin-bottom: -1px;
+		box-sizing: border-box;
+	}
+
+	#sb-begegnungsliste {
+		border-top: 0;
+		display: none;
+	}
+
+	.sb-zeitleiste {
+		position: relative;
+	}
+
+	.sb-zeitleiste-vereine {
+		border-bottom: 1px solid #e4e4e4;
+		height: 51px;
+		border-right: none;
+		width: auto;
+		float: none;
+	}
+
+	.sb-zeitleiste-vereine a {
+		height: 50px;
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+
+	.sb-zeitleiste-vereine a:first-child {
+		border-right: 1px solid #e4e4e4;
+		border-bottom: none;
+		height: 50px;
+	}
+
+	.sb-zeitleiste-vereine a img {
+		padding: 7px;
+	}
+
+	.sb-zeitleiste-ereignisse-text {
+		position: absolute;
+		top: 85px;
+		width: 100%;
+		height: 600px;
+	}
+
+	.sb-ereignistext {
+		height: 28px;
+		line-height: 28px;
+		position: absolute;
+	}
+
+	.sb-ereignistext a {
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.sb-ereignistext-heim {
+		position: absolute;
+		right: 50%;
+		margin-right: 40px;
+	}
+
+	.sb-ereignistext-gast {
+		left: 50%;
+		margin-left: 40px;
+	}
+
+	.sb-zeitleiste-ereignisse {
+		height: 101px;
+		width: 70px;
+		margin: 35px auto;
+		position: relative;
+		height: 600px;
+	}
+
+	.sb-leiste-heim {
+		left: 19px;
+		top: 0;
+		bottom: 0;
+		background-color: #1d75a3;
+		height: auto;
+		width: 14px;
+		position: absolute;
+	}
+
+	.sb-leiste-gast {
+		left: 36px;
+		top: 0;
+		bottom: 0;
+		background-color: #749f18;
+		height: auto;
+		width: 14px;
+		position: absolute;
+	}
+
+	.sb-leiste-ereignis {
+		text-align: center;
+		position: absolute;
+		z-index: 100;
+		width: 33px;
+		height: 28px;
+		background-image: url(https://tmssl.akamaized.net/images/spielbericht/sb-sprite.png);
+		background-repeat: no-repeat;
+		line-height: 20px;
+		cursor: pointer;
+		margin-top: -14px;
+	}
+
+	.sb-leiste-heim .sb-leiste-ereignis {
+		background-position: -56px -80px;
+		left: auto !important;
+		right: -2px !important;
+	}
+
+	.sb-leiste-heim .sb-leiste-ereignis.sb-leiste-abstand {
+		right: 18px !important;
+	}
+
+	.sb-leiste-gast .sb-leiste-ereignis {
+		background-position: -89px -80px;
+		left: 0 !important;
+		padding-left: 5px;
+	}
+
+	.sb-leiste-gast .sb-leiste-ereignis.sb-leiste-abstand {
+		left: 20px !important;
+	}
+
+	.sb-leiste-ereignis span.sb-sprite {
+		vertical-align: middle;
+		margin-right: 6px;
+	}
+
+	.sb-uhr-0, .sb-uhr-45, .sb-uhr-90, .sb-uhr-120, .sb-uhr-40, .sb-uhr-80, .sb-uhr-100 {
+		position: absolute;
+		z-index: 1;
+		left: 10px;
+	}
+
+	.sb-uhr-0 {
+		width: 50px;
+		height: 50px;
+		background-position: 0 -30px;
+		top: -25px;
+	}
+
+	.sb-uhr-45 {
+		width: 50px;
+		height: 50px;
+		background-position: -50px -30px;
+		top: 50%;
+		left: 10px;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-uhr-40 {
+		width: 50px;
+		height: 50px;
+		background-position: -50px -117px;
+		top: 50%;
+		left: 10px;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-120-minuten .sb-uhr-45 {
+		top: 37.5%;
+		left: 10px;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-100-minuten .sb-uhr-40 {
+		top: 40%;
+		left: 10px;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-uhr-90 {
+		width: 50px;
+		height: 50px;
+		background-position: -100px -30px;
+		bottom: -25px;
+		top: auto;
+	}
+
+	.sb-uhr-80 {
+		width: 50px;
+		height: 50px;
+		background-position: -100px -117px;
+		bottom: -25px;
+		top: auto;
+	}
+
+	.sb-120-minuten .sb-uhr-90 {
+		top: 75%;
+		left: 10px;
+		right: auto;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-100-minuten .sb-uhr-80 {
+		top: 80%;
+		left: 10px;
+		right: auto;
+		margin-top: -25px;
+		margin-left: 0;
+	}
+
+	.sb-uhr-120 {
+		width: 50px;
+		height: 50px;
+		background-position: -150px -30px;
+		bottom: -25px;
+		right: 0;
+		top: auto;
+	}
+
+	.sb-uhr-100 {
+		width: 50px;
+		height: 50px;
+		background-position: -150px -117px;
+		bottom: -25px;
+		right: 0;
+		top: auto;
+	}
+}
+
+/* SPRITE-KRAM */
+.sb-sprite {
+	background-image: url(https://tmssl.akamaized.net/images/spielbericht/sb-sprite.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.sb-auf {
+	width: 20px;
+	height: 15px;
+	background-position: 0 0;
+}
+
+.sb-ab {
+	width: 20px;
+	height: 15px;
+	background-position: -20px 0;
+}
+
+.sb-neutral {
+	width: 20px;
+	height: 15px;
+	background-position: -214px 0;
+}
+
+.sb-aus {
+	width: 13px;
+	height: 15px;
+	background-position: -40px 1px;
+}
+
+.sb-ein {
+	width: 13px;
+	height: 15px;
+	background-position: -53px 1px;
+}
+
+.sb-tor {
+	width: 13px;
+	height: 13px;
+	background-position: 0 -15px;
+}
+
+.sb-wechsel {
+	width: 15px;
+	height: 13px;
+	background-position: -13px -15px;
+}
+
+.sb-gelb {
+	width: 8px;
+	height: 11px;
+	background-position: -28px -15px;
+}
+
+.sb-gelbrot {
+	width: 8px;
+	height: 11px;
+	background-position: -36px -15px;
+}
+
+.sb-rot {
+	width: 8px;
+	height: 11px;
+	background-position: -44px -15px;
+}
+
+.sb-11m {
+	width: 13px;
+	height: 13px;
+	background-position: -200px -80px;
+}
+
+.sb-wechsel-401 {
+	width: 20px;
+	height: 20px;
+	background-position: -108px 0px;
+}
+
+.sb-wechsel-402 {
+	width: 20px;
+	height: 20px;
+	background-position: -68px 0px;
+}
+
+.sb-wechsel-403 {
+	width: 20px;
+	height: 20px;
+	background-position: -168px 0px;
+}
+
+.sb-wechsel-404 {
+	width: 20px;
+	height: 20px;
+	background-position: -88px 0px;
+}
+
+.sb-wechsel-405 {
+	width: 20px;
+	height: 20px;
+	background-position: -128px 0px;
+}
+
+.sb-wechsel-406 {
+	width: 20px;
+	height: 20px;
+	background-position: -148px 0px;
+}
+
+.sb-wechsel-407 {
+	width: 20px;
+	height: 20px;
+	background-position: -68px 0px;
+}
+
+.sb-eigentor {
+	width: 13px;
+	height: 13px;
+	background-position: -188px 0px;
+}
+
+.sb-assist {
+	width: 13px;
+	height: 13px;
+	background-position: -201px 0px;
+}
+
+.sb-11m-tor {
+	width: 36px;
+	height: 36px;
+	background-position: -125px -81px;
+}
+
+.sb-11m-verschossen {
+	width: 36px;
+	height: 36px;
+	background-position: -161px -81px;
+}
+
+.sb-stat-schuss {
+	width: 15px;
+	height: 15px;
+	background-position: -200px -20px;
+}
+
+.sb-stat-torschuss {
+	width: 15px;
+	height: 15px;
+	background-position: -215px -20px;
+}
+
+.sb-stat-nebenschuss {
+	width: 15px;
+	height: 15px;
+	background-position: -200px -35px;
+}
+
+.sb-stat-gehalten {
+	width: 15px;
+	height: 15px;
+	background-position: -215px -35px;
+}
+
+.sb-stat-ecke {
+	width: 15px;
+	height: 15px;
+	background-position: -200px -50px;
+}
+
+.sb-stat-freistoss {
+	width: 15px;
+	height: 15px;
+	background-position: -215px -50px;
+}
+
+.sb-stat-foul {
+	width: 15px;
+	height: 15px;
+	background-position: -200px -65px;
+}
+
+.sb-stat-abseits {
+	width: 15px;
+	height: 15px;
+	background-position: -215px -65px;
+}
+
+/* UHREN-SPRITE-KRAM */
+.sb-sprite-uhr {
+	background-image: url(https://tmssl.akamaized.net/images/spielbericht/sb-sprite-uhr.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 27px;
+	line-height: 10px;
+	/*color: #b80718;*/
+	text-shadow: 2px 2px #cbcbcb;
+}
+
+.sb-sprite-uhr-klein {
+	background-image: url(https://tmssl.akamaized.net/images/spielbericht/sb-sprite-uhr-k.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 23px;
+	line-height: 8px;
+	/*color: #b80718;*/
+	text-shadow: 2px 2px #cbcbcb;
+}
+
+/* AJAX-LAYER EREIGNISSE */
+.sb-tt-ereignis {
+	position: relative;
+	margin: 5px;
+	background: #f9f9f9;
+	width: 102px;
+	height: 153px;
+}
+
+.sb-tt-uhr, .sb-tt-verein, .sb-tt-typ, .sb-tt-spieler, .sb-tt-spieler-raus, .sb-tt-spieler-rein, .sb-tt-detail, .sb-tt-detail-raus, .sb-tt-detail-rein, .sb-tt-detail-zusatz {
+	position: absolute;
+	text-align: center;
+	font-size: 11px;
+}
+
+.sb-tt-uhr {
+	top: 0;
+	left: 0;
+	width: 51px;
+	height: 47px;
+	line-height: 47px;
+	border-right: 1px solid #e4e4e4;
+}
+
+.sb-tt-uhr *, .sb-tt-verein * {
+	vertical-align: middle;
+}
+
+.sb-tt-verein {
+	position: absolute;
+	top: 0;
+	left: 51px;
+	width: 51px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+}
+
+.sb-tt-typ {
+	top: 51px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	line-height: 18px;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	font-weight: bold;
+}
+
+.sb-tt-typ span {
+	vertical-align: middle;
+}
+
+.sb-tt-spieler {
+	top: 71px;
+	left: 0;
+	height: 44px;
+	width: 100%;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.sb-tt-spieler img {
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	height: 36px;
+}
+
+.sb-tt-spieler-raus {
+	top: 71px;
+	left: 0;
+	height: 44px;
+	width: 50%;
+	border-bottom: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	text-align: right;
+	padding-top: 12px;
+	padding-right: 3px;
+}
+
+.sb-tt-spieler-raus img {
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	height: 36px;
+}
+
+.sb-tt-spieler-rein {
+	top: 71px;
+	left: 50%;
+	height: 44px;
+	width: 50%;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: left;
+	padding-top: 12px;
+	padding-left: 2px;
+}
+
+.sb-tt-spieler-rein img {
+	position: absolute;
+	top: 5px;
+	right: 4px;
+	height: 36px;
+}
+
+.sb-tt-spieler .sb-tt-spielername {
+	position: absolute;
+	top: 5px;
+	left: 36px;
+	font-size: 11px;
+	text-align: left;
+	width: 66px;
+	height: 33px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.sb-tt-spieler .sb-tt-spielername a {
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	width: 66px;
+	height: 22px;
+}
+
+.sb-tt-detail {
+	text-align: left;
+	top: 120px;
+	width: 100%;
+}
+
+.sb-tt-detail-raus {
+	text-align: left;
+	top: 120px;
+	width: 50%;
+}
+
+.sb-tt-detail-rein {
+	text-align: right;
+	top: 120px;
+	left: 50%;
+	width: 50%;
+}
+
+.sb-tt-detail a, .sb-tt-detail-rein a, .sb-tt-detail-raus a {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+}
+
+.sb-tt-detail-zusatz {
+	top: 142px;
+	width: 100%;
+}
+
+.sb-tabellenausschnitt-tendenz {
+	margin-top: 75px;
+}
+
+/* Formation */
+.sb-formation .formation_startelf {
+	min-width: initial;
+	width: 60%;
+	position: relative;
+}
+
+.sb-formation .formation_ersatzbank {
+	max-width: initial;
+	width: 40%;
+}
+
+.sb-formation .formation_startaufstellung {
+	background-size: 100% 100%;
+}
+
+.sb-formation .formation_feld, .sb-formation .formation_feld_active {
+	width: 20%;
+	margin: 0;
+	padding: 1px;
+	height: 12.5%;
+}
+
+.sb-formation .formation_startaufstellung .abstand_unten {
+	margin-bottom: -6%;
+}
+
+/**/
+.sb-formation .formation_startaufstellung .kleiner_abstand_oben {
+	margin-bottom: -6%;
+}
+
+/**/
+.sb-formation .formation_startaufstellung .abstand_oben {
+	margin-top: 2%;
+}
+
+.sb-formation .formation_startaufstellung .grosser_abstand_oben {
+	margin-top: -4%;
+}
+
+.sb-formation .formation_torwart {
+	width: 20%;
+	left: 50%;
+	margin-left: -10%;
+}
+
+.sb-formation .formation_feld_torwart {
+	width: 100%;
+}
+
+.sb-formation td img.flaggenrahmen {
+	vertical-align: middle;
+}
+
+.sb-formation .table-header img.flaggenrahmen {
+	vertical-align: baseline;
+	margin-bottom: 1px;
+}
+
+.sb-formation .table-footer {
+	font-weight: inherit;
+}
+
+.sb-formation .table-footer table td {
+	border: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Ereignisse (Tore, Wechsel, Karten) */
+
+.sb-ereignisse ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 2px;
+}
+
+.sb-ereignisse li {
+	padding-top: 1px;
+	margin-bottom: 1px;
+	height: 38px;
+}
+
+.sb-ereignisse li a {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.sb-aktion-heim {
+	margin-right: 50%;
+	background-color: #e4e4e4;
+	border-radius: 19px 0 0 19px;
+}
+
+.sb-aktion-gast {
+	margin-left: 50%;
+	background-color: #e4e4e4;
+	border-radius: 0 19px 19px 0;
+}
+
+.sb-aktion {
+	width: 100%;
+	height: 36px;
+	background-color: #fff;
+}
+
+.sb-aktion-heim .sb-aktion {
+	padding-left: 15px;
+	float: right;
+}
+
+.sb-aktion-gast .sb-aktion {
+	padding-right: 15px;
+	float: left;
+}
+
+.sb-aktion-heim .sb-aktion div {
+	float: right;
+}
+
+.sb-aktion-gast .sb-aktion div {
+	float: left;
+}
+
+.sb-aktion div {
+	text-align: center;
+	height: 36px;
+	font-size: 10px;
+}
+
+.sb-aktion-uhr {
+	height: 38px !important;
+	margin-top: -1px;
+	padding: 1px 0 0 1px;
+	width: 39px;
+	border: 1px solid #e4e4e4;
+}
+
+.sb-aktion-heim .sb-aktion-uhr {
+	margin-right: -20px;
+	border-radius: 19px;
+}
+
+.sb-aktion-gast .sb-aktion-uhr {
+	margin-left: -19px;
+	border-radius: 19px;
+}
+
+.sb-aktion .sb-aktion-spielstand {
+	width: 40px;
+	text-align: center !important;
+	line-height: 36px;
+	font-size: 16px;
+}
+
+.sb-ereignisse li .sb-aktion-spielerbild img {
+	height: 36px;
+}
+
+.sb-aktion-heim .sb-aktion .sb-aktion-aktion, .sb-aktion-gast .sb-aktion .sb-aktion-aktion {
+	height: 36px;
+	overflow: hidden;
+	float: none;
+	line-height: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.sb-aktion-heim .sb-aktion-aktion {
+	text-align: right;
+	padding-right: 10px;
+	margin-left: 17px;
+}
+
+.sb-aktion-gast .sb-aktion-aktion {
+	text-align: left;
+	padding-left: 10px;
+	margin-right: 17px;
+}
+
+.sb-aktion-heim .sb-aktion-aktion .sb-aktion-spielerbild {
+	float: left;
+}
+
+.sb-aktion-gast .sb-aktion-aktion .sb-aktion-spielerbild {
+	float: right;
+}
+
+.sb-aktion-aktion .sb-aktion-wechsel-ein, .sb-aktion-aktion .sb-aktion-wechsel-aus {
+	display: block;
+
+	height: 18px;
+	line-height: 18px;
+}
+
+.sb-aktion-heim .sb-aktion-wechsel-aus {
+	padding-left: 29px;
+}
+
+.sb-aktion-gast .sb-aktion-wechsel-aus {
+	padding-right: 29px;
+}
+
+.sb-aktion-heim .sb-aktion-wechsel-ein, .sb-aktion-gast .sb-aktion-wechsel-aus {
+	text-align: left;
+}
+
+.sb-aktion-heim .sb-aktion-wechsel-aus, .sb-aktion-gast .sb-aktion-wechsel-ein {
+	text-align: right;
+}
+
+.sb-aktion-gast .sb-aktion-wechsel-aus, .sb-aktion-gast .sb-aktion-wechsel-ein {
+	direction: rtl;
+}
+
+.sb-aktion-gast .sb-aktion-wechsel-aus .sb-sprite, .sb-aktion-gast .sb-aktion-wechsel-ein .sb-sprite {
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+#sb-verschossene .sb-aktion-spielstand {
+	width: 38px;
+	height: 38px;
+	border-radius: 19px;
+	background-color: #fff;
+	line-height: 38px;
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+}
+
+#sb-verschossene .sb-aktion-spielstand a img {
+	vertical-align: middle;
+}
+
+#sb-verschossene .sb-aktion-heim .sb-aktion-aktion, #sb-wechsel .sb-aktion-heim .sb-aktion-aktion {
+	margin-left: 28px;
+}
+
+#sb-verschossene .sb-aktion-gast .sb-aktion-aktion, #sb-wechsel .sb-aktion-gast .sb-aktion-aktion {
+	margin-right: 28px;
+}
+
+#sb-wechsel .sb-aktion-spielstand .sb-sprite {
+	margin-top: 8px;
+}
+
+#sb-karten .sb-aktion-spielstand .sb-sprite, #sb-sanktionen .sb-aktion-spielstand .sb-sprite {
+	margin-top: 13px;
+}
+#sb-sanktionen .sb-aktion-spielstand .sb-sprite.sb-innenraumverweis {
+    background-image: url(https://tmsi.akamaized.net/icons/technicalarea_banned.svg);
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.sb-aktion .sb-aktion-wappen {
+	width: 38px;
+	height: 38px;
+	border-radius: 19px;
+	background-color: #fff;
+	margin-top: -37px;
+	line-height: 38px;
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+}
+
+.sb-aktion .sb-aktion-wappen a img {
+	vertical-align: middle;
+}
+
+.sb-aktion-heim .sb-aktion-wappen {
+	float: left !important;
+	margin-left: -15px;
+}
+
+.sb-aktion-gast .sb-aktion-wappen {
+	float: right !important;
+	margin-right: -15px;
+}
+
+#sb-notenbeste ul {
+	height: 43px;
+}
+
+#sb-notenbeste li {
+	margin: 0 0 1px 0;
+	width: 50%;
+	float: left;
+}
+
+.sb-st-container .unterueberschrift {
+	text-align: center;
+}
+
+.sb-st-ballbesitz {
+	height: 221px;
+	border-bottom: 1px solid #e4e4e4;
+	position: relative;
+	padding: 0 1px 0 0;
+}
+
+.sb-st-wappen-heim, .sb-st-wappen-gast {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	z-index: 1;
+}
+
+.sb-st-wappen-heim {
+	margin-left: -250px;
+}
+
+.sb-st-wappen-gast {
+	margin-left: 150px;
+}
+
+.sb-statistik {
+	height: 43px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.sb-statistik ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 2px;
+}
+
+.sb-statistik li {
+	padding-top: 1px;
+	margin: 0 0 1px 0;
+	height: 38px;
+	width: 50%;
+	background-color: #e4e4e4;
+}
+
+.sb-statistik-heim {
+	border-radius: 19px 0 0 19px;
+	float: left;
+}
+
+.sb-statistik-gast {
+	border-radius: 0 19px 19px 0;
+	float: right;
+}
+
+.sb-statistik-wert, .sb-statistik-wert-lang {
+	height: 36px;
+	background-color: #fff;
+	min-width: 90px;
+}
+
+.sb-statistik-wert-lang {
+	min-width: 100px;
+}
+
+.sb-statistik-heim .sb-statistik-wert, .sb-statistik-heim .sb-statistik-wert-lang {
+	padding-left: 15px;
+	float: right;
+	border-radius: 19px 0 0 19px;
+	background-color: #1d75a3;
+}
+
+.sb-statistik-gast .sb-statistik-wert, .sb-statistik-gast .sb-statistik-wert-lang {
+	padding-right: 15px;
+	float: left;
+	border-radius: 0 19px 19px 0;
+	background-color: #749f18;
+}
+
+.sb-statistik-heim div {
+	float: right;
+}
+
+.sb-statistik-gast div {
+	float: left;
+}
+
+.sb-statistik-heim .sb-statistik-mitte {
+	margin-right: -20px;
+	border-radius: 19px;
+}
+
+.sb-statistik-gast .sb-statistik-mitte {
+	margin-left: -19px;
+	border-radius: 19px;
+}
+
+.sb-statistik-mitte {
+	height: 38px !important;
+	margin-top: -1px;
+	padding: 10px 0 0 1px;
+	width: 39px;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+}
+
+.sb-statistik-wert div, .sb-statistik-wert-lang div {
+	text-align: center;
+	font-size: 10px;
+	height: 36px;
+}
+
+.sb-statistik .sb-statistik-zahl {
+	height: 36px;
+	overflow: hidden;
+	float: none;
+	line-height: 36px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.sb-statistik-heim .sb-statistik-zahl {
+	text-align: right;
+	padding-right: 10px;
+	margin-left: 17px;
+}
+
+.sb-statistik-gast .sb-statistik-zahl {
+	text-align: left;
+	padding-left: 10px;
+	margin-right: 17px;
+}
+
+.sb-statistik-wappen {
+	width: 38px;
+	height: 38px;
+	border-radius: 19px;
+	background-color: #fff;
+	line-height: 56px;
+	overflow: hidden;
+	padding: 1px;
+	border: 1px solid #e4e4e4;
+	margin-top: -36px;
+}
+
+.sb-statistik-heim .sb-statistik-wappen {
+	float: left !important;
+	margin-left: -15px;
+}
+
+.sb-statistik-gast .sb-statistik-wappen {
+	float: right !important;
+	margin-right: -15px;
+}
+
+/* MOBILE-PONE-DARSTELLUNG */
+@media only screen and (max-width: 767px) {
+	li.sb-aktion-heim span.sb-aktion-wechsel-ein span.sb-ein {
+
+	}
+
+	li.sb-aktion-heim span.sb-aktion-wechsel-ein a {
+
+	}
+
+	li.sb-aktion-heim span.sb-aktion-wechsel-aus span.sb-aus {
+
+	}
+
+	li.sb-aktion-heim span.sb-aktion-wechsel-aus a {
+		margin-right: 3px;
+	}
+
+	li.sb-aktion-gast span.sb-aktion-wechsel-ein span.sb-ein {
+		float: right;
+	}
+
+	li.sb-aktion-gast span.sb-aktion-wechsel-ein a {
+		text-align: right;
+		float: right;
+	}
+
+	li.sb-aktion-gast span.sb-aktion-wechsel-aus span.sb-aus {
+		float: left;
+		margin-left: -3px;
+	}
+
+	li.sb-aktion-gast span.sb-aktion-wechsel-aus a {
+
+	}
+
+	.transfers-untereinander table tbody tr td {
+		padding: 4px 2px;
+	}
+
+	.sb-aktion-heim, .sb-aktion-gast {
+		margin: 0;
+		border-radius: 18px;
+	}
+
+	.sb-aktion-heim .sb-aktion-uhr {
+		margin-right: 0;
+	}
+
+	.sb-aktion-gast .sb-aktion-uhr {
+		margin-left: 0;
+	}
+
+	.sb-aktion-heim .sb-aktion {
+		float: left;
+	}
+
+	.sb-aktion-heim .sb-aktion div {
+		float: left;
+	}
+
+	.sb-aktion-heim .sb-aktion {
+		padding-left: 0;
+		padding-right: 15px;
+		border-radius: 0 15px 15px 0;
+	}
+
+	.sb-aktion-heim .sb-aktion-aktion {
+		text-align: left;
+		padding-right: 0;
+		padding-left: 10px;
+		margin-left: 0;
+		margin-right: 17px;
+	}
+
+	.sb-aktion-heim .sb-aktion-wechsel-aus, .sb-aktion-heim .sb-aktion-wechsel-ein {
+		direction: ltr;
+	}
+
+	.sb-aktion-heim .sb-aktion-wechsel-ein {
+		text-align: right;
+		margin-right: 34px;
+	}
+
+	.sb-aktion-heim .sb-aktion-wechsel-aus {
+		text-align: left;
+	}
+
+	.sb-aktion-heim .sb-aktion-aktion .sb-aktion-spielerbild {
+		float: right;
+	}
+
+	.sb-aktion-heim .sb-aktion-wechsel-aus {
+		padding-right: 29px;
+		padding-left: 0;
+	}
+
+	.sb-aktion-heim .sb-aktion-wechsel-ein .sb-sprite, .sb-aktion-heim .sb-aktion-wechsel-aus .sb-sprite {
+		-webkit-transform: scaleX(-1);
+		-moz-transform: scaleX(-1);
+		-ms-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		transform: scaleX(-1);
+	}
+
+	.sb-aktion-heim .sb-aktion-wappen {
+		float: right !important;
+		margin-left: 0;
+		margin-right: -15px;
+	}
+
+	#sb-verschossene .sb-aktion-heim .sb-aktion-aktion, #sb-wechsel .sb-aktion-heim .sb-aktion-aktion {
+		margin-left: 0;
+		margin-right: 28px;
+	}
+
+	#sb-notenbeste li {
+		width: 100%;
+	}
+}
+
+/* Für die Einbindung der Formationen */
+
+.aufstellung-unterueberschrift-mannschaft {
+	vertical-align: top;
+	min-height: 35px;
+}
+
+.aufstellung-unterueberschrift-mannschaft div:nth-child(1) {
+	float: left;
+}
+
+.aufstellung-unterueberschrift-mannschaft div:nth-child(2) {
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.aufstellung-unterueberschrift-mannschaft div:nth-child(3) {
+	white-space: line;
+}
+
+/* Für große Displays */
+@media only screen and (min-width: 799px) {
+	.aufstellung-box {
+		border-right: 1px solid #e4e4e4;
+	}
+}
+
+/* Für kleine Displays */
+@media only screen and (max-width: 798px) {
+	.aufstellung-box {
+		border-right: 0px solid #e4e4e4;
+	}
+
+	.aufstellung-bordertop-small {
+		border-top: 1px solid #e4e4e4;
+	}
+
+	table thead tr th, table tfoot tr td {
+		font-size: 10px;
+		padding: 8px 2px;
+
+	}
+
+	table thead tr th:first-child {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
+
+.bilanzTore {
+	width: 100%;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+}
+
+.bilanzTore .verein {
+	display: inline-block;
+	padding: 10px 5px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.bilanzTore .verein:first-child {
+	border-right: 1px solid #ccc;
+	text-align: left;
+	float: left;
+}
+
+.bilanzTore .verein:last-child {
+	border-left: 1px solid #ccc;
+	text-align: right;
+}
+
+.datenundfakten_bar {
+	display: inline-block;
+	padding: 4px 4px !important;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: right;
+}
+
+.datenundfakten_bar:first-child {
+	border-right: 1px solid #ccc !important;
+	text-align: left;
+}
+
+.datenundfakten_bar:last-child {
+	border-left: 1px solid #ccc !important;
+	text-align: right;
+}
+
+.df-table-header {
+	padding: 0 1px !important;
+	display: inline-block;
+	font-sie: 7px !important;
+}
+
+.df-table-header:first-child {
+	margin-right: 3px;
+}
+
+.df-table-header:last-child {
+	margin-left: 3px;
+}
+
+.spieltagsthread .heimwappen_bilanz {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.spieltagsthread .gastwappen_bilanz {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.spieltagsthread .header h2 {
+	display: inline-block;
+}
+
+.spieltagsthread .box .header {
+	text-align: center;
+}
+
+.pr {
+	position: relative;
+}
+
+.pl5 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.pt3 {
+	padding-top: 3px !important;
+}
+
+.pb5 {
+	padding-bottom: 5px !important;
+}
+
+.pb8 {
+	padding-bottom: 8px !important;
+}
+
+.trenner {
+	border-top: 1px solid #ddd !important;
+	margin: 5px 0;
+}
+
+.bb {
+	border-bottom: 1px solid #ddd !important;
+}
+
+.person-box-foto {
+	width: 25%;
+	float: left;
+	text-align: left;
+}
+
+.person-box-info {
+	width: 75%;
+	float: left;
+	text-align: left;
+	line-height: 1.6;
+}
+
+.sb-spieldaten .sb-hin_rueck {
+	position: absolute;
+	top: 4px;
+	left: 100%;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 12px;
+	letter-spacing: 0;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.stadionbild img {
+	max-width: 170px;
+}
+
+.wt-iframe {
+	height: 16px;
+	width: 35px;
+	margin-left: 2px;
+	vertical-align: text-top;
+}
+
+/* Kompakter Header */
+.sbk {
+	position: relative;
+}
+
+.sbk-wettbewerb {
+	height: 70px;
+	white-space: nowrap;
+}
+
+.sbk-wettbewerb img {
+	margin: 0 10px;
+	vertical-align: super;
+}
+
+.sbk-wettbewerb-infos {
+	display: inline-block;
+	margin-top: 6px;
+}
+
+.sbk-wettbewerb-name, .sbk-vereinslink {
+	font-family: OSB;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.sbk-datum {
+	line-height: 16px;
+	z-index: 2;
+}
+
+.sbk-ergebnisblock {
+	text-align: center;
+	line-height: 70px;
+	pointer-events: none;
+}
+
+.sbk-team, .sbk .ergebnis-container {
+	display: inline-block;
+}
+
+.sbk-team *, .sbk .ergebnis-container * {
+	pointer-events: all;
+}
+
+.sbk-team a img {
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+.ergebnis-container {
+	position: relative !important;
+	width: 50px !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+}
+
+.ergebnis-wrap {
+	display: inline-block;
+	background-color: #fff;
+	padding: 4px 0px 4px 0px;
+	text-align: center;
+	border-radius: 6px;
+	height: auto !important;
+	margin-top: 10px !important;
+	line-height: 16px;
+	width: 100%;
+	min-width: 45px;
+	white-space: nowrap;
+}
+
+.ergebnis-container div.sbk-ergebnis div.sbk-endstand {
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0;
+	font-family: 'OSL';
+	font-weight: normal;
+	height: auto;
+}
+
+.sbk-zusatzinfos {
+	margin-top: 14px;
+	text-align: center;
+}
+
+.sbk .arrow-bottom {
+	position: absolute;
+	float: none;
+	top: 0;
+	right: 0;
+}
+
+#premiumBericht .premiumbild {
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+#premiumBericht .headline {
+	position: absolute;
+	display: table;
+	padding: 0 10px;
+	bottom: 0;
+	width: 100%;
+	display: table;
+	position: absolute;
+	bottom: 0;
+	height: 90px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#premiumBericht .newsSubline {
+	position: absolute;
+	bottom: 93px;
+	z-index: 400;
+	background-color: #00aded;
+	font-size: 15px;
+	padding: 4px 5px 3px 5px;
+	-webkit-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4)
+}
+
+#premiumBericht h4 {
+	color: #fff;
+	line-height: 1.0;
+	font-weight: normal;
+	font-family: "Oswald", sans-serif;
+	margin: 0;
+}
+
+#premiumBericht .headlineBackground {
+	position: absolute;
+	min-height: 160px;
+	height: 160px;
+	background: rgba(255, 255, 255, 0.001); /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(to top, #1a3151 36%, rgba(26, 49, 81, 0.001)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to top, #1a3151 36%, rgba(26, 49, 81, 0.001)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to top, #1a3151 36%, rgba(26, 49, 81, 0.001)); /* For Firefox 3.6 to 15 */
+	background: -webkit-gradient(to top, #1a3151 36%, rgba(26, 49, 81, 0.001));
+	background: linear-gradient(to top, #1a3151 36%, rgba(26, 49, 81, 0.001));
+	width: 100%;
+	bottom: 0;
+}
+
+#premiumBericht h3 {
+	font-size: 34px;
+	font-weight: normal;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	line-height: 1.3;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#premiumBericht p {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 1px;
+}
+
+#premiumBericht .content.aktiv {
+	position: relative;
+	display: block;
+	display: -webkit-box;
+	position: relative;
+	height: 534px;
+	display: block;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+#premiumBericht .readmore {
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: none;
+}
+
+#premiumBericht .readmore.aktiv {
+	background: linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -webkit-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -o-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	background: -moz-linear-gradient(to top, rgba(242, 242, 242, 0.8) 40%, transparent);
+	height: 98px;
+	text-align: right;
+	display: block;
+}
+
+#premiumBericht .readmore.aktiv span {
+	font-size: 12px;
+	color: #00aded;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	bottom: 7px;
+	position: absolute;
+	right: 8px;
+}

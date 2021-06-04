@@ -1,0 +1,1 @@
+(function($){$(window).load(function(){if(window.imapperConfig&&window.imapperConfig.length){window.imapperConfig.forEach(mapDetails=>{$(`#imagemapper${mapDetails.id}-wrapper`).imageMapper(mapDetails.config);});}});})(jQuery);
